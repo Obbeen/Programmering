@@ -1,0 +1,13 @@
+/home/anton/Documents/Programering/4040/bin/Debug/netcoreapp3.1/4040
+/home/anton/Documents/Programering/4040/bin/Debug/netcoreapp3.1/4040.deps.json
+/home/anton/Documents/Programering/4040/bin/Debug/netcoreapp3.1/4040.runtimeconfig.json
+/home/anton/Documents/Programering/4040/bin/Debug/netcoreapp3.1/4040.runtimeconfig.dev.json
+/home/anton/Documents/Programering/4040/bin/Debug/netcoreapp3.1/4040.dll
+/home/anton/Documents/Programering/4040/bin/Debug/netcoreapp3.1/4040.pdb
+/home/anton/Documents/Programering/4040/obj/Debug/netcoreapp3.1/4040.csprojAssemblyReference.cache
+/home/anton/Documents/Programering/4040/obj/Debug/netcoreapp3.1/4040.AssemblyInfoInputs.cache
+/home/anton/Documents/Programering/4040/obj/Debug/netcoreapp3.1/4040.AssemblyInfo.cs
+/home/anton/Documents/Programering/4040/obj/Debug/netcoreapp3.1/4040.csproj.CoreCompileInputs.cache
+/home/anton/Documents/Programering/4040/obj/Debug/netcoreapp3.1/4040.dll
+/home/anton/Documents/Programering/4040/obj/Debug/netcoreapp3.1/4040.pdb
+/home/anton/Documents/Programering/4040/obj/Debug/netcoreapp3.1/4040.genruntimeconfig.cache

@@ -1,0 +1,13 @@
+/home/anton/Documents/Fragesport/bin/Debug/netcoreapp3.1/Fragesport
+/home/anton/Documents/Fragesport/bin/Debug/netcoreapp3.1/Fragesport.deps.json
+/home/anton/Documents/Fragesport/bin/Debug/netcoreapp3.1/Fragesport.runtimeconfig.json
+/home/anton/Documents/Fragesport/bin/Debug/netcoreapp3.1/Fragesport.runtimeconfig.dev.json
+/home/anton/Documents/Fragesport/bin/Debug/netcoreapp3.1/Fragesport.dll
+/home/anton/Documents/Fragesport/bin/Debug/netcoreapp3.1/Fragesport.pdb
+/home/anton/Documents/Fragesport/obj/Debug/netcoreapp3.1/Fragesport.csprojAssemblyReference.cache
+/home/anton/Documents/Fragesport/obj/Debug/netcoreapp3.1/Fragesport.AssemblyInfoInputs.cache
+/home/anton/Documents/Fragesport/obj/Debug/netcoreapp3.1/Fragesport.AssemblyInfo.cs
+/home/anton/Documents/Fragesport/obj/Debug/netcoreapp3.1/Fragesport.csproj.CoreCompileInputs.cache
+/home/anton/Documents/Fragesport/obj/Debug/netcoreapp3.1/Fragesport.dll
+/home/anton/Documents/Fragesport/obj/Debug/netcoreapp3.1/Fragesport.pdb
+/home/anton/Documents/Fragesport/obj/Debug/netcoreapp3.1/Fragesport.genruntimeconfig.cache

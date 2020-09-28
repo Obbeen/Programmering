@@ -1,14 +1,14 @@
 using System;
 using System.Collections.Generic;
 
-    namespace _4040
+    namespace _4050
     {
         class CD:Sak
         {
             public String Artist;
             public override void Print()
             {
-                Console.WriteLine(Titel + " av " + Artist);
+                Console.WriteLine(" av " + Artist);
             }
            
         }
@@ -17,7 +17,7 @@ using System.Collections.Generic;
             public String Regisör;
             public override void Print()
             {
-                Console.WriteLine(Titel + " av " + Regisör);
+                Console.WriteLine(" av " + Regisör);
             }
            
         }
@@ -26,18 +26,15 @@ using System.Collections.Generic;
             public string Författare;
             public override void Print()
             {
-                Console.WriteLine(Titel + " av " + Författare);
+                Console.WriteLine(" av " + Författare);
             }
 
         }
-        class Sak
+        abstract class Sak
         {
             public String Titel;
 
-               public virtual void Print()
-            {
-                Console.WriteLine(Titel);
-            }
+               public abstract void Print();
 
         }
 

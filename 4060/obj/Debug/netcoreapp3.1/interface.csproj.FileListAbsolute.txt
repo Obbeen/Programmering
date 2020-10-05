@@ -1,0 +1,17 @@
+/home/anton/Documents/Programering/interface/obj/Debug/netcoreapp3.1/interface.csprojAssemblyReference.cache
+/home/anton/Documents/Programering/interface/obj/Debug/netcoreapp3.1/interface.AssemblyInfoInputs.cache
+/home/anton/Documents/Programering/interface/obj/Debug/netcoreapp3.1/interface.AssemblyInfo.cs
+/home/anton/Documents/Programering/interface/obj/Debug/netcoreapp3.1/interface.csproj.CoreCompileInputs.cache
+/home/anton/Documents/Programering/4060/bin/Debug/netcoreapp3.1/interface
+/home/anton/Documents/Programering/4060/bin/Debug/netcoreapp3.1/interface.deps.json
+/home/anton/Documents/Programering/4060/bin/Debug/netcoreapp3.1/interface.runtimeconfig.json
+/home/anton/Documents/Programering/4060/bin/Debug/netcoreapp3.1/interface.runtimeconfig.dev.json
+/home/anton/Documents/Programering/4060/bin/Debug/netcoreapp3.1/interface.dll
+/home/anton/Documents/Programering/4060/bin/Debug/netcoreapp3.1/interface.pdb
+/home/anton/Documents/Programering/4060/obj/Debug/netcoreapp3.1/interface.csprojAssemblyReference.cache
+/home/anton/Documents/Programering/4060/obj/Debug/netcoreapp3.1/interface.AssemblyInfoInputs.cache
+/home/anton/Documents/Programering/4060/obj/Debug/netcoreapp3.1/interface.AssemblyInfo.cs
+/home/anton/Documents/Programering/4060/obj/Debug/netcoreapp3.1/interface.csproj.CoreCompileInputs.cache
+/home/anton/Documents/Programering/4060/obj/Debug/netcoreapp3.1/interface.dll
+/home/anton/Documents/Programering/4060/obj/Debug/netcoreapp3.1/interface.pdb
+/home/anton/Documents/Programering/4060/obj/Debug/netcoreapp3.1/interface.genruntimeconfig.cache

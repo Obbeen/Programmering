@@ -1,0 +1,13 @@
+/home/anton/Documents/Programering/Extrauppgift/bin/Debug/netcoreapp3.1/Extrauppgift
+/home/anton/Documents/Programering/Extrauppgift/bin/Debug/netcoreapp3.1/Extrauppgift.deps.json
+/home/anton/Documents/Programering/Extrauppgift/bin/Debug/netcoreapp3.1/Extrauppgift.runtimeconfig.json
+/home/anton/Documents/Programering/Extrauppgift/bin/Debug/netcoreapp3.1/Extrauppgift.runtimeconfig.dev.json
+/home/anton/Documents/Programering/Extrauppgift/bin/Debug/netcoreapp3.1/Extrauppgift.dll
+/home/anton/Documents/Programering/Extrauppgift/bin/Debug/netcoreapp3.1/Extrauppgift.pdb
+/home/anton/Documents/Programering/Extrauppgift/obj/Debug/netcoreapp3.1/Extrauppgift.csprojAssemblyReference.cache
+/home/anton/Documents/Programering/Extrauppgift/obj/Debug/netcoreapp3.1/Extrauppgift.AssemblyInfoInputs.cache
+/home/anton/Documents/Programering/Extrauppgift/obj/Debug/netcoreapp3.1/Extrauppgift.AssemblyInfo.cs
+/home/anton/Documents/Programering/Extrauppgift/obj/Debug/netcoreapp3.1/Extrauppgift.csproj.CoreCompileInputs.cache
+/home/anton/Documents/Programering/Extrauppgift/obj/Debug/netcoreapp3.1/Extrauppgift.dll
+/home/anton/Documents/Programering/Extrauppgift/obj/Debug/netcoreapp3.1/Extrauppgift.pdb
+/home/anton/Documents/Programering/Extrauppgift/obj/Debug/netcoreapp3.1/Extrauppgift.genruntimeconfig.cache

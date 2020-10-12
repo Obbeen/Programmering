@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Fragesport
+namespace Extrauppgift
 {
     class Program
     {
@@ -9,55 +9,33 @@ namespace Fragesport
 
         static void Main(string[] args)
         {
-            Frågesport();
-        }
-        
-        static void Frågesport()
-        {       
+            Score myScore = new Score();
+            List<QuestionCard> questions = new List<QuestionCard>();
            
-             List<questioncards> fragor = new List<questioncards>();
-            fragor.Add(new questioncards("Vad heter Norges hvudstad?", "Oslo"));
-            fragor.Add(new questioncards("Vad heter Danmarks huvudstad?", "Köpenhamn"));
-            fragor.Add(new questioncards("vad heter Finlands huvudstad?", "Helsingfors"));
-            foreach (var item in fragor)
+             List<QuestionCard> fragor = new List<QuestionCard>();
+            questions.Add(new QuestionChoice("Vad heter Norges hvudstad?", new List<string>(new string[] { "Oslo", "Stockholm", "Berlin", "London" }), "1"));
+            questions.Add(new QuestionChoice("Vad heter Danmarks huvudstad?", new List<string>(new string[] { "Oslo", "Köpenhamn", "New York", "London" }), "2"));
+            questions.Add(new QuestionChoice("vad heter Finlands huvudstad?", new List<string>(new string[] { "Alingsås", "Stockholm", "Helsingfors", "Göteborg" }), "3"));
+
+            foreach (var question in questions)
             {
-                Askquestion(item);
+                AskQuestion(question, myScore);
             }
 
-            static void  Askquestion(questioncards q)
-            {
-                Console.WriteLine(q.question);
-                String uans = Console.ReadLine();
-                if (uans == q.answer)
-                {
-                    Console.WriteLine("rätt!");
-                }
-                else
-                {
-                    Console.WriteLine("fel!");
-                }
-            }
-
-
-
+            Console.WriteLine("your score is" + myScore.GetScore() + "/" + myScore.GetMaxScore());
                 
-             }
+
+        }
+         static void AskQuestion(QuestionCard Q, Score s)
+         {
+             Q.PrintQuestion();
+             Q.GetInput(s);
+         }
+        
+
 
 
              
-        }
-        class questioncards
-        {
-            public String question {get;}
-            public String answer {get;}
-
-            public questioncards(string q, string ans)
-            {
-                question = q;
-                answer = ans;
-            }
-
-        }
-        
-    }
+    }        
+}
 

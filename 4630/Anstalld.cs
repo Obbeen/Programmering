@@ -7,7 +7,13 @@ namespace _4630
     {
         protected string namn;
     
-
+        public String Namn
+        {
+            get
+            {
+                return namn;
+            }
+        }
         
 
         public Anstalld(String namnet)

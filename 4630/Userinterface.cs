@@ -6,36 +6,41 @@ namespace _4630
 {   
     class UserInterface 
     {
-        
+        static Personalhanterare phant = new Personalhanterare
         public void Run()
         {
+            PrintMenu();
+            String svar = Console.ReadLine();
+            while (svar != "a")
+            {
+                if (svar == "1")
+                {
+                    Console.WriteLine("");
+                    phant.Laggtillanstalld();
+                    Console.WriteLine("");                }
 
-            string choice = Console.ReadLine();
-            if (choice == "1")
-            {
+                else if (svar =="2")
+                {
+                   Console.WriteLine(""); 
+                   phant.PrintAnställd(); 
+                }
 
-            }
-            else if (choice == "2")
-            {
-                
-            }
-            else if (choice == "3")
-            {
-                
-            }
-            else if (choice == "4")
-            {
-                
-            }
-            else if (choice == "a")
-            {
-                
-            }
-            else
-            {
-                Console.WriteLine("fel");
-            }
+                else if (svar =="3")
+                {
+                    Console.WriteLine("");
+                    phant.Printnamnet();
+                    Console.WriteLine("");
+                }
 
+                else
+                {
+                    Console.WriteLine("Fel inmatning!");
+                }
+
+                PrintMenu();
+                svar = Console.ReadLine();
+            
+            }
         }
 
         public void PrintMenu()

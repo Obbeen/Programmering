@@ -9,8 +9,8 @@ namespace _4630
             Test test = new Test();
             test.Run();
 
-            UserInterface UserInterface = new UserInterface();
-            UserInterface.Run();
+            UserInterface userInterface = new UserInterface();
+            userInterface.Run();
         }
     }
 }

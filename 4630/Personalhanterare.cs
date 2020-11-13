@@ -14,10 +14,11 @@ namespace _4630
                 Console.WriteLine("2. Basochprovisions");
                 Console.WriteLine("3. Fastanställd");
                 Console.WriteLine("4. Timanställd");
-                Console.ReadLine();
+                
                 string choice1 = Console.ReadLine();
+                Console.WriteLine("choice" + choice1); 
 
-                if (choice1 == "1")
+                if (choice1 == "3")
                 {               
                Console.WriteLine("");
                Console.WriteLine("Namn: ");
@@ -26,7 +27,7 @@ namespace _4630
                String lönen = Console.ReadLine();
                personal.Add(new FastAnstalld(namn, Convert.ToDouble(lönen)));
                 }
-                else if (choice1 == "2")
+                else if (choice1 == "1")
                 {
                Console.WriteLine("");
                Console.WriteLine("Namn: ");
@@ -37,7 +38,7 @@ namespace _4630
                String forsaljning = Console.ReadLine();
                personal.Add(new ProvisionsAnstalld(namn, Convert.ToDouble(provision), Convert.ToDouble(forsaljning)));                    
                 }
-                else if (choice1 == "3")
+                else if (choice1 == "2")
                 {
                 Console.WriteLine("");
                 Console.WriteLine("Namn: ");

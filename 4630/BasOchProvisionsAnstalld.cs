@@ -18,7 +18,7 @@ namespace _4630
        }
        public override string ToString()
        {
-           return base.ToString() + " = månadslön" + Environment.NewLine + " Fastlön " + FastLon + Environment.NewLine + "provision: " + provision + Environment.NewLine + "Försäljning: " + forsaljning; 
+           return base.ToString() + " Fastlön " + FastLon ; 
        }
 
     }

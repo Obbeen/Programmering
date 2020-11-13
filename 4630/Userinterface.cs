@@ -6,7 +6,7 @@ namespace _4630
 {   
     class UserInterface 
     {
-        static Personalhanterare phant = new Personalhanterare
+        private Personalhanterare phant = new Personalhanterare();
         public void Run()
         {
             PrintMenu();
@@ -48,7 +48,6 @@ namespace _4630
             Console.WriteLine("1. lägg till ny anställd.");
             Console.WriteLine("2. skriv ut uppgifter om anställda");
             Console.WriteLine("3. skriv ut namn på alla an");
-            Console.WriteLine("4. ändra uppgifter om anställda");
             Console.WriteLine("a. Avsluta");
         }
 

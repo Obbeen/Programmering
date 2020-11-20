@@ -5,7 +5,7 @@ using System.Text;
 namespace ParkingMachineConsole
 {
     /// <summary>
-    /// An object of the class ParkingMachine represents a parking machine.
+    /// An sodsffsdfbject of the class ParkingMachine represents a parking machine.
     /// 
     /// Insert money first. 
     /// 

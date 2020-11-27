@@ -63,10 +63,23 @@ namespace ParkingMachineConsole
 
         public string BuyTicket()
         {
+            int days = CurrentTotal / (costPerHour * 24);
+
+            int hours = CurrentTotal / costPerHour ;
+
+
+            hours = hours%24;
+
+
+            int minutes = 60 * CurrentTotal / costPerHour;
+
+            minutes = minutes % 60;
+
+
             total += currentTotal;
             currentTotal = 0;
 
-            return TimeToTicketText(0, 0, 30);
+            return TimeToTicketText(days, hours, minutes);
         }
 
         public void BuyTicket2Dar3Hour15Min_TicketText()
@@ -80,6 +93,8 @@ namespace ParkingMachineConsole
                 hours + " hours" + Environment.NewLine +
                 minutes + " minutes";
         }
+
+
     }
 
 }

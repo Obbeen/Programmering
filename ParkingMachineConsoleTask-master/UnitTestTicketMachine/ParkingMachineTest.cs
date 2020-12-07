@@ -54,7 +54,7 @@ namespace UnitTestParkingMachine
         public void BuyTicket30Min_CurrentTotal_Zeroed()
         {
             // Arrange
-            ParkingMachine machine = new ParkingMachine();
+            ParkingMachine machine = new ParkingMachine(10);
 
             // Act
             machine.InsertMoney(10);
@@ -82,7 +82,7 @@ namespace UnitTestParkingMachine
         public void BuyTicket30Min_TicketText()
         {
             // Arrange
-            ParkingMachine machine = new ParkingMachine();
+            ParkingMachine machine = new ParkingMachine(30);
 
             // Act
             machine.InsertMoney(10);
@@ -95,7 +95,7 @@ namespace UnitTestParkingMachine
         public void BuyTicket3Hour_TicketText()
         {
             // Arrange
-            ParkingMachine machine = new ParkingMachine();
+            ParkingMachine machine = new ParkingMachine(20);
 
             // Act
             machine.InsertMoney(60);
@@ -105,7 +105,7 @@ namespace UnitTestParkingMachine
             Assert.AreEqual(TimeToTicketText(days: 0, hours: 3, minutes: 0), ticketText);
         }
         [TestMethod]
-        public void BuyTicket4Day_TicketText()
+        public void BuyTicket4Day_TicketText(50)
         {
             // Arrange
             ParkingMachine machine = new ParkingMachine();

@@ -27,7 +27,7 @@ namespace ParkingMachineConsole
         {
             get
             {
-                return CostPerHour;
+                return costPerHour;
             }
         }
 
@@ -37,6 +37,8 @@ namespace ParkingMachineConsole
             currentTotal = 0;
             costPerHour = costPerH;
         }
+
+
 
         public int CurrentTotal
         {

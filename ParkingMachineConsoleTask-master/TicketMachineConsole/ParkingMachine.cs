@@ -38,7 +38,12 @@ namespace ParkingMachineConsole
             costPerHour = costPerH;
         }
 
-
+        public ParkingMachine()
+        {
+            total = 0;
+            currentTotal = 0;
+            costPerHour = 20;
+        }
 
         public int CurrentTotal
         {
@@ -95,6 +100,19 @@ namespace ParkingMachineConsole
                 minutes + " minutes";
         }
 
+        public TimeSpan GetParkingTimeSpan()
+        {
+            int days = Convert.ToInt32((currentTotal / costPerHour) / 24);
+            int hours = Convert.ToInt32((currentTotal / costPerHour) % 24);
+            int minutes = Convert.ToInt32((currentTotal * 60 / costPerHour) % 60);
+            return new TimeSpan(days: days, hours: hours, minutes: minutes, seconds: 0);
+        }
+        public DateTime GetValidTo()
+        {
+            DateTime date = DateTime.Now;
+            date = date.Add(GetParkingTimeSpan());
+            return date;
+        }
 
     }
 

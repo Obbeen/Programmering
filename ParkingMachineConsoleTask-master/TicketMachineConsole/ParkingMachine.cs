@@ -81,11 +81,14 @@ namespace ParkingMachineConsole
             total += currentTotal;
             Console.WriteLine(total);
             int tCurrentTotal = currentTotal;
-            currentTotal = 0;
-            return "Parking ticket valid for:" + Environment.NewLine +
+            
+            string parkingtime =  "Parking ticket valid for:" + Environment.NewLine +
                 ((tCurrentTotal / costPerHour) / 24) + " days" + Environment.NewLine +
                 ((tCurrentTotal / costPerHour) % 24) + " hours" + Environment.NewLine +
-                ((tCurrentTotal * 60 / costPerHour)) % 60 + " minutes";
+                ((tCurrentTotal * 60 / costPerHour)) % 60 + " minutes" + Environment.NewLine + Environment.NewLine + 
+                "Valid to: " + GetValidTo();
+            currentTotal = 0;
+            return parkingtime;
         }
 
         public void BuyTicket2Dar3Hour15Min_TicketText()

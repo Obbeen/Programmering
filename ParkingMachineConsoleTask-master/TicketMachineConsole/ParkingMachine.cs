@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using ParkingMachineConsoleTicket;
 
 namespace ParkingMachineConsole
 {
@@ -76,20 +77,7 @@ namespace ParkingMachineConsole
             return temp;
         }
 
-        public string BuyTicket()
-        {
-            total += currentTotal;
-            Console.WriteLine(total);
-            int tCurrentTotal = currentTotal;
-            
-            string parkingtime =  "Parking ticket valid for:" + Environment.NewLine +
-                ((tCurrentTotal / costPerHour) / 24) + " days" + Environment.NewLine +
-                ((tCurrentTotal / costPerHour) % 24) + " hours" + Environment.NewLine +
-                ((tCurrentTotal * 60 / costPerHour)) % 60 + " minutes" + Environment.NewLine + Environment.NewLine + 
-                "Valid to: " + GetValidTo();
-            currentTotal = 0;
-            return parkingtime;
-        }
+
 
         public void BuyTicket2Dar3Hour15Min_TicketText()
         {
@@ -115,6 +103,13 @@ namespace ParkingMachineConsole
             DateTime date = DateTime.Now;
             date = date.Add(GetParkingTimeSpan());
             return date;
+        }
+        public Ticket BuyTicket()
+        {
+            total = currentTotal + total;
+            Ticket biljett = new Ticket(currentTotal, costPerHour);
+            currentTotal = 0;
+            return biljett;
         }
 
     }

@@ -1,0 +1,19 @@
+C:\Users\anton\source\repos\frågesport gui\frågesport gui\bin\Debug\netcoreapp3.1\frågesport gui.exe
+C:\Users\anton\source\repos\frågesport gui\frågesport gui\bin\Debug\netcoreapp3.1\frågesport gui.deps.json
+C:\Users\anton\source\repos\frågesport gui\frågesport gui\bin\Debug\netcoreapp3.1\frågesport gui.runtimeconfig.json
+C:\Users\anton\source\repos\frågesport gui\frågesport gui\bin\Debug\netcoreapp3.1\frågesport gui.runtimeconfig.dev.json
+C:\Users\anton\source\repos\frågesport gui\frågesport gui\bin\Debug\netcoreapp3.1\frågesport gui.dll
+C:\Users\anton\source\repos\frågesport gui\frågesport gui\bin\Debug\netcoreapp3.1\frågesport gui.pdb
+C:\Users\anton\source\repos\frågesport gui\frågesport gui\obj\Debug\netcoreapp3.1\frågesport gui.csprojAssemblyReference.cache
+C:\Users\anton\source\repos\frågesport gui\frågesport gui\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\anton\source\repos\frågesport gui\frågesport gui\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\anton\source\repos\frågesport gui\frågesport gui\obj\Debug\netcoreapp3.1\frågesport gui_MarkupCompile.cache
+C:\Users\anton\source\repos\frågesport gui\frågesport gui\obj\Debug\netcoreapp3.1\frågesport gui_MarkupCompile.lref
+C:\Users\anton\source\repos\frågesport gui\frågesport gui\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\anton\source\repos\frågesport gui\frågesport gui\obj\Debug\netcoreapp3.1\frågesport gui.g.resources
+C:\Users\anton\source\repos\frågesport gui\frågesport gui\obj\Debug\netcoreapp3.1\frågesport gui.AssemblyInfoInputs.cache
+C:\Users\anton\source\repos\frågesport gui\frågesport gui\obj\Debug\netcoreapp3.1\frågesport gui.AssemblyInfo.cs
+C:\Users\anton\source\repos\frågesport gui\frågesport gui\obj\Debug\netcoreapp3.1\frågesport gui.csproj.CoreCompileInputs.cache
+C:\Users\anton\source\repos\frågesport gui\frågesport gui\obj\Debug\netcoreapp3.1\frågesport gui.dll
+C:\Users\anton\source\repos\frågesport gui\frågesport gui\obj\Debug\netcoreapp3.1\frågesport gui.pdb
+C:\Users\anton\source\repos\frågesport gui\frågesport gui\obj\Debug\netcoreapp3.1\frågesport gui.genruntimeconfig.cache

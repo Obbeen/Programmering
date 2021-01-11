@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30711.63
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "frågesport gui", "frågesport gui\frågesport gui.csproj", "{D966AC9F-BE16-4AAB-9016-8D5BDECB45CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D966AC9F-BE16-4AAB-9016-8D5BDECB45CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D966AC9F-BE16-4AAB-9016-8D5BDECB45CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D966AC9F-BE16-4AAB-9016-8D5BDECB45CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D966AC9F-BE16-4AAB-9016-8D5BDECB45CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B3BC966C-4C53-4B13-A0C5-562D097A55E3}
+	EndGlobalSection
+EndGlobal

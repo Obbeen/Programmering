@@ -11,8 +11,8 @@
         <TextBlock Name="textblock2" Margin="40px" Height="50" Width="500" FontSize="35" Text="Vad heter Norges Huvudstad?"></TextBlock>
         <TextBox Name="textboxsvar" Margin="40px" Height="40" Width="300" FontSize="25" Text="Svara här"></TextBox>
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
-            <Button Name="buttonrätta" Height="30" Width="60" FontSize="20" Margin="0,0,50,0" Content="Rätta" />
-            <Button Name="buttonnästa" Height="30" Width="60" FontSize="20" Margin="50,0,0,0" Content="Nästa Fråga"/>
+            <Button Name="buttonrätta" Height="30" Width="60" FontSize="20" Margin="0,0,200,0" Content="Rätta" />
+            <Button Name="buttonnästa" Height="30" Width="120" FontSize="20" Margin="200,0,0,0" Content="Nästa Fråga"/>
         </StackPanel>
     </StackPanel>
     

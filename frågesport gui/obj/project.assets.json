@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\anton\\source\\repos\\frågesport gui\\frågesport gui\\frågesport gui.csproj",
+      "projectUniqueName": "C:\\Users\\anton\\Documents\\GitHub\\Programmering\\frågesport gui\\frågesport gui.csproj",
       "projectName": "frågesport gui",
-      "projectPath": "C:\\Users\\anton\\source\\repos\\frågesport gui\\frågesport gui\\frågesport gui.csproj",
+      "projectPath": "C:\\Users\\anton\\Documents\\GitHub\\Programmering\\frågesport gui\\frågesport gui.csproj",
       "packagesPath": "C:\\Users\\anton\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\anton\\source\\repos\\frågesport gui\\frågesport gui\\obj\\",
+      "outputPath": "C:\\Users\\anton\\Documents\\GitHub\\Programmering\\frågesport gui\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\anton\\AppData\\Roaming\\NuGet\\NuGet.Config",

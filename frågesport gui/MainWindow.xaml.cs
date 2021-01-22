@@ -57,6 +57,8 @@ namespace frågesport_gui
         {
             CurrentQ = CurrentQ + 1;
             textblock2.Text = fragor[CurrentQ].question;
+            textboxsvar.Text = "";
+            textblockfeedback.Text = "";
         }
     }
 }

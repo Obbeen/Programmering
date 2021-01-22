@@ -6,11 +6,11 @@
         xmlns:local="clr-namespace:frågesport_gui"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <StackPanel Margin="0,0,0,-6">
+    <StackPanel Margin="0,0,0,-158">
         <TextBlock Name="textblock1" Margin="40px" Height="70" Width="240" FontSize="50" Text="Frågesport"></TextBlock>
         <TextBlock Name="textblock2" Margin="40px" Height="50" Width="500" FontSize="35" Text="Vad heter Norges Huvudstad?"></TextBlock>
         <TextBox Name="textboxsvar" Margin="40px" Height="40" Width="300" FontSize="25" Text="Svara här"></TextBox>
-        <TextBlock Name="textblockfeedback" Text="" />
+        <TextBlock Name="textblockfeedback" Margin="40px" Height="40" Width="300" FontSize="25" Text="" />
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
             <Button Name="buttonrätta" Height="30" Width="60" FontSize="20" Margin="0,0,200,0" Content="Rätta" Click="buttonrätta_Click" />
             <Button Name="buttonnästa" Height="30" Width="120" FontSize="20" Margin="200,0,0,0" Content="Nästa Fråga" Click="buttonnästa_Click"/>

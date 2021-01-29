@@ -10,9 +10,16 @@ namespace DrillWpfHighScore
         private int score;
         // lägg till name
 
-        // lägg till konstruktor
+        private string name;
 
-        // property
+        public string Name
+        {
+            get
+            {
+                return name;
+            }
+        }
+
         public int Score
         {
             get
@@ -21,6 +28,15 @@ namespace DrillWpfHighScore
             }
         }
 
+        public Result(string name, int score)
+        {
+            this.name = name;
+            this.score = score;
+        }
+        public override string ToString()
+        {
+            return name + " " + score + Environment.NewLine;
+        }
         // lägg till ToString() eller property Name
 
         

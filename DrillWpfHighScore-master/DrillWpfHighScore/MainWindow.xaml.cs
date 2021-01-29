@@ -35,6 +35,15 @@ namespace DrillWpfHighScore
             // sortera listan
             scores.Sort();
 
+            for (int i = 0; i < scores.Count(); i++)
+            {
+                HighScores.Text += Environment.NewLine + scores[i].Name + " " + scores[i].Score + Environment.NewLine;
+                if (i > 4)
+                {
+                    return;
+                }
+            }
+
             // skriv ut top 5 som 
             // 1. Ada 1060
             // 2. Beda 980

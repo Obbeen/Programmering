@@ -8,8 +8,16 @@ namespace DrillWpfFordon
     {
         // registratoin number
         // owner
+        string agare;
 
+        string regnummer;
 
+        public Vehicle(string a, string reg)
+        {
+            agare = a;
+
+            regnummer = reg;
+        }
         // konstruktor tar registeringsnummer som parameter
         // bara registreringsnummer
 

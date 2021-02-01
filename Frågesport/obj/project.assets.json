@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\anton\\Documents\\GitHub\\Programmering\\Frågesport\\Frågesport.csproj",
+      "projectUniqueName": "C:\\Users\\anton\\OneDrive\\Documents\\GitHub\\Programmering\\Frågesport\\Frågesport.csproj",
       "projectName": "Frågesport",
-      "projectPath": "C:\\Users\\anton\\Documents\\GitHub\\Programmering\\Frågesport\\Frågesport.csproj",
+      "projectPath": "C:\\Users\\anton\\OneDrive\\Documents\\GitHub\\Programmering\\Frågesport\\Frågesport.csproj",
       "packagesPath": "C:\\Users\\anton\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\anton\\Documents\\GitHub\\Programmering\\Frågesport\\obj\\",
+      "outputPath": "C:\\Users\\anton\\OneDrive\\Documents\\GitHub\\Programmering\\Frågesport\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\anton\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -60,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

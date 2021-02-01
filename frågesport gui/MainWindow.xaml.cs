@@ -12,6 +12,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.IO;
+using Path = System.IO.Path;
 
 namespace frågesport_gui
 {
@@ -23,12 +25,19 @@ namespace frågesport_gui
         private int CurrentQ = 0;
         List<questioncards> fragor = new List<questioncards>();
         questioncards q;
+        private string fileName = "frågor.txt";
+        private string pathAndFileName;
+
         public MainWindow()
 
         {
 
-            InitializeComponent();
-           
+        InitializeComponent();
+
+            string docPath =
+            Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+            pathAndFileName = Path.Combine(docPath, fileName);
+
             fragor.Add(new questioncards("Vad heter Norges hvudstad?", "Oslo"));
             fragor.Add(new questioncards("Vad heter Danmarks huvudstad?", "Köpenhamn"));
             fragor.Add(new questioncards("vad heter Finlands huvudstad?", "Helsingfors"));
@@ -42,7 +51,7 @@ namespace frågesport_gui
         {
 
             String uans = textboxsvar.Text;
-            if (uans == fragor[CurrentQ].answer)
+            if (uans.ToLower() == fragor[CurrentQ].answer.ToLower())
             {
                 textblockfeedback.Text = "Rätt";
             }
@@ -60,5 +69,35 @@ namespace frågesport_gui
             textboxsvar.Text = "";
             textblockfeedback.Text = "";
         }
-    }
+
+        private void ReadFile()
+        {
+            try
+            {
+                // Open the text file using a stream reader.
+                using (var sr = new StreamReader(pathAndFileName))
+
+                {
+                    string q;
+                    string ans;
+                    
+                    q = sr.ReadLine();
+                    ans = sr.ReadLine();
+                    while (q != null)
+                    {
+                        fragor.Add(new questioncards(q, ans ));
+
+                        q = sr.ReadLine();
+                        ans = sr.ReadLine();
+
+                    }
+                }
+            }
+            catch (IOException e)
+            {
+                textblock2.Text = "The file could not be read:" + e.Message;
+            }
+
+        }
+       }
 }

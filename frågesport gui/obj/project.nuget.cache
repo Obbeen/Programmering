@@ -1,8 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "QsN8Go01CAIZS1QnLjKC0z/SOn9MAkIWSqN2BMu+kRb/3vBAcc/OZvuQ03VaMlT4P0GLkZJhOxJG7h3ogf3EAA==",
+  "dgSpecHash": "gEqO3TqAS840gCN024WYtaMYuLwRNpLVhO+srtXsiIwpITOAigWPNnoTgJJyuFU8ebJDLV2KKLgUwmMVd9Rc0A==",
   "success": true,
   "projectFilePath": "C:\\Users\\anton\\OneDrive\\Documents\\GitHub\\Programmering\\frågesport gui\\frågesport gui.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\anton\\.nuget\\packages\\microsoft.data.sqlite\\5.0.2\\microsoft.data.sqlite.5.0.2.nupkg.sha512",
+    "C:\\Users\\anton\\.nuget\\packages\\microsoft.data.sqlite.core\\5.0.2\\microsoft.data.sqlite.core.5.0.2.nupkg.sha512",
+    "C:\\Users\\anton\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.0.4\\sqlitepclraw.bundle_e_sqlite3.2.0.4.nupkg.sha512",
+    "C:\\Users\\anton\\.nuget\\packages\\sqlitepclraw.core\\2.0.4\\sqlitepclraw.core.2.0.4.nupkg.sha512",
+    "C:\\Users\\anton\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.0.4\\sqlitepclraw.lib.e_sqlite3.2.0.4.nupkg.sha512",
+    "C:\\Users\\anton\\.nuget\\packages\\sqlitepclraw.provider.dynamic_cdecl\\2.0.4\\sqlitepclraw.provider.dynamic_cdecl.2.0.4.nupkg.sha512",
+    "C:\\Users\\anton\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512"
+  ],
   "logs": []
 }

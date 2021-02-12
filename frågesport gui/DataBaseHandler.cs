@@ -117,7 +117,7 @@ namespace frågesport_gui
                 {
                     if (int.TryParse(query.GetString(0), out int id))
                     {
-                        QuestionText question = new QuestionText(query.GetString(1), query.GetString(2))
+                        QuestionText question = new QuestionText(query.GetString(1), query.GetString(2));
                     }
 
                 }
@@ -125,7 +125,7 @@ namespace frågesport_gui
                 db.Close();
             }
 
-            return towers;
+            return questions;
         }
 
 
@@ -134,9 +134,9 @@ namespace frågesport_gui
         /// </summary>
         /// <param name="id"></param>
         /// <returns>Returns the tower with the selected id if it exists, otherwise null.</returns>
-        public Tower GetTower(int id)
+        public questioncards GetQuestion(int id)
         {
-            Tower tower = null;
+            questioncards question = null;
             using (SqliteConnection db =
               new SqliteConnection($"Filename={GetPathAndDbName()}"))
             {
@@ -154,16 +154,13 @@ namespace frågesport_gui
 
                 if (query.Read())
                 {
-                    tower = new Tower(id);
-                    tower.Name = query.GetString(1);
-                    int height = int.Parse(query.GetString(2));
-                    tower.Height = height;
+                    question = new QuestionText(query.GetString(1), query.GetString(2));
                 }
 
                 db.Close();
             }
 
-            return tower;
+            return question;
         }
 
         /// <summary>

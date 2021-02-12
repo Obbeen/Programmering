@@ -1,0 +1,19 @@
+﻿<Window x:Class="DrillWpfFordon.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DrillWpfFordon"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="400">
+    <StackPanel>
+        <TextBlock Text="Number Of Goals"/>
+        <TextBox Name="NumberOfGoals" />
+        <TextBlock Text="Fotbollsspelare" />
+        <TextBox Name="FootBallPlayer" />
+        <Button Name="Save" Content="Spara" Click="Save_Click"/>
+        <TextBox Name="Players" Text="Visa alla fotbollsspelare här. " />
+
+
+    </StackPanel>
+</Window>
